@@ -1,0 +1,11 @@
+name: Linda
+version: 0.0
+license: AllRightsReserved
+build-type: Simple
+cabal-version: >= 1.2
+
+library
+  exposed-modules : Linda
+  build-depends: base < 5, mtl, network, containers, parsec >= 3.1.0, stm
+  ghc-options: -threaded -O2
+
